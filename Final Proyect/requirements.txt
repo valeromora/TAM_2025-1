@@ -1,0 +1,8 @@
+chromadb>=0.4.15
+openai>=1.14.3
+fastapi>=0.110.0
+uvicorn[standard]
+pydantic>=2.6.4
+tiktoken>=0.6.0
+pandas>=2.2.2
+chardet>=5.2.0

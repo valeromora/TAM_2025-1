@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# macOS/Linux
+.DS_Store
+*.swp
+
+# Configuración local
+.env
+Dataset/
