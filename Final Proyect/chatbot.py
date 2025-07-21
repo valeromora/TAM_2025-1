@@ -1,10 +1,17 @@
+import os
+from dotenv import load_dotenv
 from openai import OpenAI
 import chromadb
 from chromadb.utils import embedding_functions
-import os
+
+# === CARGA DE VARIABLES DE ENTORNO ===
+load_dotenv()  # Carga las variables desde el archivo .env
 
 # === CONFIGURACIÓN ===
-OPENAI_API_KEY = "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"  # o usa dotenv
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise ValueError("La variable de entorno OPENAI_API_KEY no está definida")
+
 CHROMA_DIR = "./chroma_storage"
 COLLECTION_NAME = "indicadores_colombia"
 
