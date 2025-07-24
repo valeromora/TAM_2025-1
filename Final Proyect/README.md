@@ -55,9 +55,8 @@ streamlit run dash_app.py
 ```
 
 ## 🌐 Acceso
-
-- API: http://localhost:8000/docs
-- Frontend: http://localhost:8501
+Link de la aplicacion:
+http://34.57.105.43:8501/
 
 ## 📝 Licencia
 
